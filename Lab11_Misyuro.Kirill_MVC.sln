@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab11_Misyuro.Kirill_MVC", "Lab11_Misyuro.Kirill_MVC.csproj", "{4813F650-F4C5-415F-AE12-63549F99673D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4813F650-F4C5-415F-AE12-63549F99673D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4813F650-F4C5-415F-AE12-63549F99673D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4813F650-F4C5-415F-AE12-63549F99673D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4813F650-F4C5-415F-AE12-63549F99673D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
