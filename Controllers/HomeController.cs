@@ -30,7 +30,15 @@ public class HomeController : Controller
     public IActionResult Second()
     {
         var info = new InfoModel(Request, web);
-        ViewData["Message"] = JsonConvert.SerializeObject(info,Formatting.Indented);
+        ViewData["Message"] = JsonConvert.SerializeObject(info, Formatting.Indented);
+        return View();
+    }
+
+    public IActionResult Parameters(string name, string surname, int age)
+    {
+        ViewBag.Name = name;
+        ViewBag.Surname = surname;
+        ViewBag.Age = age;
         return View();
     }
 
